@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.tmp_sda_1134.myapplication.MainActivity">
+    tools:context="com.example.tmp_sda_1134.myapplication.createAccount">
 
     <EditText
         android:id="@+id/etName"
@@ -97,7 +97,7 @@
         app:layout_constraintVertical_bias="0.465" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/etUserid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -156,6 +156,6 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintHorizontal_bias="0.036"
         app:layout_constraintVertical_bias="0.95" />
 </android.support.constraint.ConstraintLayout>
